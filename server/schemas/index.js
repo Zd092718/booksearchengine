@@ -1,4 +1,4 @@
-const Book = require("../models/Book");
-const User = require("../models/User");
+const typeDefs = require("./typeDefs");
+const resolvers = require("./resolvers");
 
-module.exports = { Book, User };
+module.exports = { typeDefs, resolvers };
